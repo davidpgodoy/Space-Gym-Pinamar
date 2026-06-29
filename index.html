@@ -55,7 +55,7 @@
                     <li><a href="#instalaciones" class="nav-link">Instalaciones</a></li>
                     <li><a href="#planes" class="nav-link">Planes</a></li>
                     <li><a href="#comunidad" class="nav-link">Comunidad</a></li>
-                    <li><a href="#indumentaria" class="nav-link">Indumentaria</a></li>
+                    <li><a href="#indumentaria" class="nav-link">Space Shop</a></li>
                     <li><a href="#contacto" class="nav-link">Contacto</a></li>
                 </ul>
             </nav>
@@ -312,7 +312,7 @@
         <section class="merch section" id="indumentaria">
             <div class="container">
                 <div class="section-header reveal-up">
-                    <h2 class="section-title">CULTURE SPACE</h2>
+                    <h2 class="section-title">SPACE SHOP</h2>
                     <p class="section-intro">Llevá la actitud de Space Gym a todos lados.</p>
                 </div>
 
@@ -373,6 +373,66 @@
                         <div class="merch-info">
                             <h3 class="merch-name">Remera Crop Black</h3>
                             <div class="merch-price">$1.050 <span class="currency">UYU</span></div>
+                            <a href="https://wa.link/33gzo6" target="_blank" rel="noopener noreferrer" class="btn btn-outline plan-btn">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="merch-card reveal-up" style="transition-delay: 200ms;">
+                        <div class="merch-img" style="position: relative; overflow: hidden; background-color: #1a1a1a;">
+                            <!-- Slide 1 -->
+                            <div id="canguro-slide-1" style="position: absolute; top:0; left:0; width: 100%; height: 100%; transition: opacity 0.4s ease; opacity: 1; z-index: 2;">
+                                <img src="./assets/canguro_black.jpeg" alt="Canguro Black 1" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <!-- Slide 2 -->
+                            <div id="canguro-slide-2" style="position: absolute; top:0; left:0; width: 100%; height: 100%; transition: opacity 0.4s ease; opacity: 0; z-index: 1;">
+                                <img src="./assets/canguro_black_sin_logo.jpeg" alt="Canguro Black 2" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            
+                            <!-- Arrows -->
+                            <button onclick="document.getElementById('canguro-slide-1').style.opacity = '1'; document.getElementById('canguro-slide-2').style.opacity = '0'; document.getElementById('canguro-slide-1').style.zIndex = '2'; document.getElementById('canguro-slide-2').style.zIndex = '1'; document.getElementById('canguro-dot-1').style.background = 'var(--color-accent, #C8E635)'; document.getElementById('canguro-dot-2').style.background = 'rgba(255,255,255,0.4)';" style="position: absolute; left: 8px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; font-size: 14px;">&#10094;</button>
+                            
+                            <button onclick="document.getElementById('canguro-slide-1').style.opacity = '0'; document.getElementById('canguro-slide-2').style.opacity = '1'; document.getElementById('canguro-slide-1').style.zIndex = '1'; document.getElementById('canguro-slide-2').style.zIndex = '2'; document.getElementById('canguro-dot-1').style.background = 'rgba(255,255,255,0.4)'; document.getElementById('canguro-dot-2').style.background = 'var(--color-accent, #C8E635)';" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; font-size: 14px;">&#10095;</button>
+
+                            <!-- Indicators -->
+                            <div style="position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; z-index: 10;">
+                                <div id="canguro-dot-1" style="width: 8px; height: 8px; border-radius: 50%; background: var(--color-accent, #C8E635); transition: background 0.3s;"></div>
+                                <div id="canguro-dot-2" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.4); transition: background 0.3s;"></div>
+                            </div>
+                        </div>
+                        <div class="merch-info">
+                            <h3 class="merch-name">Canguro Black</h3>
+                            <div class="merch-price">.500 <span class="currency">UYU</span></div>
+                            <a href="https://wa.link/33gzo6" target="_blank" rel="noopener noreferrer" class="btn btn-outline plan-btn">COMPRAR</a>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="merch-card reveal-up" style="transition-delay: 300ms;">
+                        <div class="merch-img" style="position: relative; overflow: hidden; background-color: #1a1a1a;">
+                            <!-- Slide 1 -->
+                            <div id="taza-slide-1" style="position: absolute; top:0; left:0; width: 100%; height: 100%; transition: opacity 0.4s ease; opacity: 1; z-index: 2;">
+                                <img src="./assets/taza_adelante.jpeg" alt="Taza Space 1" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <!-- Slide 2 -->
+                            <div id="taza-slide-2" style="position: absolute; top:0; left:0; width: 100%; height: 100%; transition: opacity 0.4s ease; opacity: 0; z-index: 1;">
+                                <img src="./assets/taza_atras.jpeg" alt="Taza Space 2" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            
+                            <!-- Arrows -->
+                            <button onclick="document.getElementById('taza-slide-1').style.opacity = '1'; document.getElementById('taza-slide-2').style.opacity = '0'; document.getElementById('taza-slide-1').style.zIndex = '2'; document.getElementById('taza-slide-2').style.zIndex = '1'; document.getElementById('taza-dot-1').style.background = 'var(--color-accent, #C8E635)'; document.getElementById('taza-dot-2').style.background = 'rgba(255,255,255,0.4)';" style="position: absolute; left: 8px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; font-size: 14px;">&#10094;</button>
+                            
+                            <button onclick="document.getElementById('taza-slide-1').style.opacity = '0'; document.getElementById('taza-slide-2').style.opacity = '1'; document.getElementById('taza-slide-1').style.zIndex = '1'; document.getElementById('taza-slide-2').style.zIndex = '2'; document.getElementById('taza-dot-1').style.background = 'rgba(255,255,255,0.4)'; document.getElementById('taza-dot-2').style.background = 'var(--color-accent, #C8E635)';" style="position: absolute; right: 8px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.6); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; font-size: 14px;">&#10095;</button>
+
+                            <!-- Indicators -->
+                            <div style="position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; z-index: 10;">
+                                <div id="taza-dot-1" style="width: 8px; height: 8px; border-radius: 50%; background: var(--color-accent, #C8E635); transition: background 0.3s;"></div>
+                                <div id="taza-dot-2" style="width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.4); transition: background 0.3s;"></div>
+                            </div>
+                        </div>
+                        <div class="merch-info">
+                            <h3 class="merch-name">Taza Space</h3>
+                            <div class="merch-price">00 <span class="currency">UYU</span></div>
                             <a href="https://wa.link/33gzo6" target="_blank" rel="noopener noreferrer" class="btn btn-outline plan-btn">COMPRAR</a>
                         </div>
                     </div>
@@ -441,7 +501,7 @@
                 <a href="#instalaciones">Instalaciones</a>
                 <a href="#planes">Planes</a>
                 <a href="#comunidad">Comunidad</a>
-                <a href="#indumentaria">Indumentaria</a>
+                <a href="#indumentaria">Space Shop</a>
             </div>
 
             <div class="footer-social">
